@@ -16,7 +16,7 @@ function About() {
 
       <button onClick={handleToggleTimer}>ver/ocultar temporizador</button>
 
-      { isTimerShowing && <Timer /> }
+      { isTimerShowing && <Timer setIsTimerShowing={setIsTimerShowing}/> }
 
     </div>
   )
