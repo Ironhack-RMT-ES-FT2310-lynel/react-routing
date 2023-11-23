@@ -3,7 +3,7 @@ function Home() {
   return (
     <div>
       
-      <h1>Bienvenidos a mi pagina</h1>
+      <h1>Selecciona una Pokemon!</h1>
 
     </div>
   )
